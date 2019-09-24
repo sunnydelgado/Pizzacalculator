@@ -26,7 +26,7 @@ const priceLarge = 9.95;
 
 var priceS= (amountSmall*priceSmall)
 var priceM= (amountMedium*priceMedium)
-var priceL= (amountSmall*priceSmall)
+var priceL= (amountSmall*priceLarge)
 
 document.write ("€"+" ")
 document.write (amountSmall*priceSmall+"<br>")
